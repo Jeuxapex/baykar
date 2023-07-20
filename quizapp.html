@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Uygulaması</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Quiz Uygulaması</h1>
+    <div id="quiz-container">
+      <div id="question-container">
+        <h2 id="question-number"></h2>
+        <p id="question"></p>
+        <ul id="choices"></ul>
+      </div>
+      <div id="timer-container">
+        <span id="timer">30</span>
+      </div>
+      <button id="next-button" disabled>Sonraki</button>
+    </div>
+    <div id="results-container" style="display: none;">
+      <h2>Sonuçlar</h2>
+      <table id="results-table">
+        <thead>
+          <tr>
+            <th>Soru</th>
+            <th>Verilen Cevap</th>
+          </tr>
+        </thead>
+        <tbody id="results-body"></tbody>
+      </table>
+    </div>
+  </div>
+  <script src="quizapp.js"></script>
+</body>
+</html>
