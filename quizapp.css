@@ -1,0 +1,85 @@
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f2f2f2;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#quiz-container {
+  background-color: #fff;
+  padding: 20px;
+}
+
+#question-number {
+  font-size: 18px;
+}
+
+#question {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+#choices {
+  list-style-type: none;
+  padding: 0;
+}
+
+#choices li {
+  margin-bottom: 10px;
+}
+
+#timer-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#timer {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#next-button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#results-container {
+  margin-top: 40px;
+}
+
+#results-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#results-table th, #results-table td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+#results-table th:first-child, #results-table td:first-child {
+  text-align: center;
+  width: 30%;
+}
+
+#results-table th:last-child, #results-table td:last-child {
+  text-align: center;
+  width: 70%;
+}
